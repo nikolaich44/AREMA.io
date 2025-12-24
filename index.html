@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AREMA - Рассчитайте стоимость ремонта квартиры</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Полностью переделанный header с правильным расположением элементов -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="logo-text">AREMA</a>
+                </div>
+                <nav class="nav">
+                    <!-- Updated navigation to link to apartment.html -->
+                    <a href="apartment.html" class="nav-link">Ремонт квартир</a>
+                    <a href="bathroom.html" class="nav-link">Ремонт ванн</a>
+                    <a href="design.html" class="nav-link">Дизайн интерьеров</a>
+                    <a href="blog.html" class="nav-link">Блог</a>
+                </nav>
+                <div class="header-right">
+                    <div class="phone-block">
+                        <div class="phone">+7 (499) 110-93-52</div>
+                        <div class="phone-info">Политика конфиденциальности при<br>обработке персональных данных</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero секция с калькулятором стоимости -->
+    <section class="calculator-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content-calculator">
+                <h1 class="calculator-title">Рассчитайте стоимость ремонта<br>будущей квартиры прямо сейчас</h1>
+                <p class="calculator-subtitle">Ответьте на 7 вопросов и получите:</p>
+                
+                <div class="benefits-row">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect x="8" y="12" width="32" height="28" stroke="#FFD700" stroke-width="2"/>
+                                <rect x="14" y="18" width="8" height="8" fill="#FFD700"/>
+                                <rect x="26" y="18" width="8" height="8" fill="#FFD700"/>
+                                <rect x="14" y="28" width="8" height="8" fill="#FFD700"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <strong>Расчет стоимости</strong><br>
+                            ремонта квартиры
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect x="12" y="8" width="24" height="32" stroke="#FFD700" stroke-width="2"/>
+                                <line x1="16" y1="14" x2="32" y2="14" stroke="#FFD700" stroke-width="2"/>
+                                <line x1="16" y1="20" x2="32" y2="20" stroke="#FFD700" stroke-width="2"/>
+                                <line x1="16" y1="26" x2="28" y2="26" stroke="#FFD700" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <strong>Каталог материалов</strong><br>
+                            по ценам производителя
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect x="10" y="14" width="28" height="24" stroke="#FFD700" stroke-width="2"/>
+                                <path d="M24 10 L28 14 L20 20 L24 28 L16 22 L8 28 L12 20 L4 14 L14 14 Z" fill="#333"/>
+                                <circle cx="24" cy="26" r="6" stroke="#FFD700" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <strong>1 из 2 подарков</strong><br>
+                            к заказу
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="error.html" class="btn-calculator">Узнать стоимость ремонта</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Несколько слов о нас" -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-left">
+                    <h2 class="about-title">Несколько слов о нас</h2>
+                    <p class="about-text">Можно много говорить об опыте, качестве наших услуг<br>
+                    и системах контроля объектов, но что, действительно, важно?<br>
+                    Только факты и отзывы реальных клиентов!</p>
+                    
+                    <div class="awards-list">
+                        <div class="award-item">
+                            <div class="award-icon yellow-award">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path d="M16 4 L18 14 L28 14 L20 20 L24 28 L16 22 L8 28 L12 20 L4 14 L14 14 Z" fill="#333"/>
+                                </svg>
+                            </div>
+                            <div class="award-text">
+                                <strong>Лучшая строительная компания России</strong><br>
+                                по версии Вилли Профессионала Петровича
+                            </div>
+                        </div>
+                        
+                        <div class="award-item">
+                            <div class="award-icon green-award">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <circle cx="16" cy="16" r="12" stroke="#fff" stroke-width="2"/>
+                                    <path d="M10 16 L14 20 L22 12" stroke="#fff" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                            <div class="award-text">
+                                <strong>Лучший отменский сервис Houzz 2019</strong><br>
+                                по направлению дизайн интерьера
+                            </div>
+                        </div>
+                        
+                        <div class="award-item">
+                            <div class="award-icon red-award">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <circle cx="16" cy="16" r="12" fill="#fff"/>
+                                    <path d="M16 8 L18 14 L24 14 L19 18 L21 24 L16 20 L11 24 L13 18 L8 14 L14 14 Z" fill="#C41E3A"/>
+                                </svg>
+                            </div>
+                            <div class="award-text">
+                                <strong>ТОП-10 строительных компаний</strong><br>
+                                Москвы по версии Yell
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="certificate-link">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <rect x="4" y="2" width="12" height="16" stroke="#0066B3" stroke-width="1.5"/>
+                            <line x1="7" y1="6" x2="13" y2="6" stroke="#0066B3" stroke-width="1.5"/>
+                        </svg>
+                        <a href="error.html">Посмотреть сертификат</a>
+                    </div>
+                    
+                    <p class="director-name">Руководитель проекта проектов Бубликов Сергей<br>
+                    Олександрович. Полина Милова</p>
+                </div>
+                
+                <div class="about-right">
+                    <img src="public/images/employees.png" alt="Команда AREMA с сертификатом">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция со статистикой -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500</div>
+                    <div class="stat-label">реальных отзывов<br>в сети интернет</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">270</div>
+                    <div class="stat-label">реализованных<br>дизайн-проектов</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">53</div>
+                    <div class="stat-label">специалиста<br>в штате</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">лет — минимальный<br>стаж архитекторов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>© AREMA профессиональный ремонт квартир в Москве | ИНН 771691268S ОГРН 1187746496233</p>
+                    <a href="error.html" class="footer-link">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
